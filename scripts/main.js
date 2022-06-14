@@ -6,6 +6,7 @@ import { getGuests } from "./database.js"
 
 const guests= getGuests()
 const areas= getAreas()
+
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
@@ -28,7 +29,7 @@ const applicationHTML = `
     </section>
     </div>
     <section class="detail--column list details__cities">
-        
+        ${Services()}
         
     </section>
 </article>

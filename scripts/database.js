@@ -7,7 +7,7 @@ const database = { //object of arrays of objects lol
 
     }, {
         id: 2,
-        name: "Lost Wolf Hiking",
+        name: "Lost Wolf Hiking Trail",
 
     }, {
         id: 3,
