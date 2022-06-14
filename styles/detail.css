@@ -1,0 +1,42 @@
+#Areas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: black 5px solid
+}
+
+.area-- {
+    flex-basis: 25%;
+    
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+    border: red 5px solid
+}
+
+.area-- h2 {
+    text-align: center;
+}
+
+header {
+    margin: 5px;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/photos/sunbeams-shining-through-idyllic-golden-woodland-glade-forest-picture-id1284368876?b=1&k=20&m=1284368876&s=170667a&w=0&h=X1rXQ_3i48ICjAA5j_b0S7HJOBsZ_W-0V-il-JRkI8Q=);
+    color: white;
+}
+
+.area-- h3 {
+    text-align: center;
+}
+
+.leftandright {
+    display:flex;
+}
+
+.guests {
+    padding: 10px;
+    width:25%;
+    background: green;
+    border: black 2px solid
+}
